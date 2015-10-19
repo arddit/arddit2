@@ -1,0 +1,114 @@
+
+#logo {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+li:hover {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin-top: 120px;
+}
+
+.btn{/*
+  text-align: center;
+  width: 100%;*/
+}
+
+.navbtn{
+  text-transform: capitalize;
+  /*margin: auto;*/
+  text-align: center;
+  width: 115%;
+}
+
+.panel{
+  width: 100%;
+}
+
+.panel:hover{
+  color: white;
+  text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+input, textarea, .uneditable-input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.navbar-collapse {
+  max-height: none !important;
+  overflow-x: none !important;
+  max-width: auto;
+}
+
+.text{
+  text-align: justify;
+  margin: 20px;
+}
+
+.hidden { display: none; }
+
+.presentation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card{
+  padding-top: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-height: 300px !important;
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+h2{
+  text-align: left;
+}
+
+/* footer */
+
+footer {
+  margin-top: 75px;
+  padding-top: 5px;
+  border-top: 2px solid #eaeaea;
+  color: #000;
+}
+footer a {
+  color: #000;
+}
+footer a:hover {
+  color: orange;
+  text-decoration: none;
+}
+footer small {
+  text-align: center;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
