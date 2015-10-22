@@ -18,12 +18,53 @@ li:hover {
 }
 
 body {
-  margin-top: 120px;
+  margin-top: 60px;
+  font-family: 'Alegreya', serif;
+}
+
+.description1 {
 }
 
 .btn{/*
   text-align: center;
   width: 100%;*/
+}
+
+/* Customize container */
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+    background-color: white;
+  }
+  .navbar{
+    max-width: 960px !important;
+  }
+}
+
+.presentation{
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.well{
+  background-color: #f1f1f1 !important;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.jumbotron{
+
+    box-shadow:0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+#profile{
+  padding: 40px;
 }
 
 .navbtn{
@@ -85,6 +126,10 @@ h2{
   text-align: left;
 }
 
+h3{
+  font-family: 'Alegreya', serif;
+}
+
 /* footer */
 
 footer {
@@ -109,6 +154,22 @@ footer ul {
 }
 footer ul li {
   float: left;
-  margin-left: 15px;
+  margin-right: 20px;
 }
 
+/* latin-ext */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya'), local('Alegreya-Regular'), url(https://fonts.gstatic.com/s/alegreya/v7/9u9YGRxvkN-Oe2bJiJD80RkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya'), local('Alegreya-Regular'), url(https://fonts.gstatic.com/s/alegreya/v7/4vRXIs1BEbKX6mQ7lGu1I3YhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
